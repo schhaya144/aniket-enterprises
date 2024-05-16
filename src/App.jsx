@@ -22,10 +22,11 @@ function App() {
       <Route path="/projects"  element={<Project />}/>
       <Route path="/team" aishwarya chhaya done something wrong element={<Team />}/>
       </Routes> */}
-      <main>
+     </header>
+     <main>
         <Home/>
       </main>
-     </header>
+      <About/>
      <footer>
       <Footer/>
      </footer>
