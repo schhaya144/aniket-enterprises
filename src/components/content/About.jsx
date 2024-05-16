@@ -41,13 +41,16 @@ We are known for our quality work, integrity and time effectiveness.
   <div className="row">
     <h3 className='card-heading text-center'>We offer consultancy services in different sectors like</h3>
   </div>
-  <div className='d-flex justify-content-evenly'>
-    <div> food processing, </div>
-    <div>Engineering</div>
-    <div>Plastic</div>
-    <div>Manufacturing</div>
-    <div>Construction</div>
-    <div>Dairy etc.</div>
+  <div className='row '>
+    <div className='col-md-4 text-center service-box-main' > <div className='service-box'>food processing</div>   </div>
+    <div className='col-md-4 text-center service-box-main' > <div className='service-box'> Engineering</div></div>
+    <div className='col-md-4 text-center service-box-main' > <div className='service-box'>Plastic</div> </div>
+    
+  </div>
+  <div className='row '>
+    <div className='col-md-4 text-center service-box-main' > <div className='service-box'> Manufacturing</div></div>
+    <div className='col-md-4 text-center service-box-main' > <div className='service-box'>Construction</div> </div>
+    <div className='col-md-4 text-center service-box-main' > <div className='service-box'>Dairy etc.</div> </div>
   </div>
 </div>
 
