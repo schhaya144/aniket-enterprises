@@ -1,21 +1,11 @@
 import React from 'react'
-
+import style from './Home.module.css';
 function Home() {
   return (
     <>
-      <div className="conatiner">
+      <div className={`conatiner ${style.containerBg}`}>
         <div className="row">
-        home page.
-      ff
-      <br />
-      cxkmc
-      <br />
-      dcjduhcsd
-      <br /><br />
-      <br /><br />
-      <br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      dknchdsb
+        
         </div>
       </div>
       <section id='about'>

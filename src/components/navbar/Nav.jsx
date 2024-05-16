@@ -10,8 +10,8 @@ function Nav() {
 
   return (
     <>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-md fixed-top bg-white">
+        <div class="container">
           <a class="navbar-brand" href="#">
             Offcanvas dark navbar
           </a>
@@ -28,7 +28,7 @@ function Nav() {
           </button>
           <div
             
-           className={`offcanvas offcanvas-end text-bg-dark ${isNavOpen ? "show" : ""}`}
+           className={`offcanvas offcanvas-end  ${isNavOpen ? "show" : ""}`}
             tabindex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
@@ -39,7 +39,7 @@ function Nav() {
               </h5>
               <button
                 type="button"
-                class="btn-close btn-close-white"
+                class="btn-close btn-close-dark"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
