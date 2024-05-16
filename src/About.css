@@ -1,4 +1,18 @@
 .about-img{
-    height: 200px;
-    width: 200px;
+   /* position: relative;
+   top: 30%; */
+   margin: 40px 17px;
+}
+
+.about-container{
+    /* height: 100vh; */
+}
+.about-para{
+    /* position: relative;
+    top: 40%; */
+    margin: 40px 17px;
+}
+.card-heading{
+    color: orangered;
+    font-weight: 700;
 }
