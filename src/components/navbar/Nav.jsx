@@ -10,13 +10,13 @@ function Nav() {
 
   return (
     <>
-      <nav class="navbar navbar-expand-md fixed-top bg-white">
-        <div class="container">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-expand-md fixed-top bg-white">
+        <div className="container">
+          <a className="navbar-brand" href="#">
             Offcanvas dark navbar
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasDarkNavbar"
@@ -24,28 +24,28 @@ function Nav() {
             aria-label="Toggle navigation"
             onClick={handleToggleNav}
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
             
            className={`offcanvas offcanvas-end  ${isNavOpen ? "show" : ""}`}
-            tabindex="-1"
+            tabIndex="-1"
             id="offcanvasDarkNavbar"
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+            <div className="offcanvas-header">
+              <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
                 Dark offcanvas
               </h5>
               <button
                 type="button"
-                class="btn-close btn-close-dark"
+                className="btn-close btn-close-dark"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <div className="offcanvas-body">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item active">
                 <a className="nav-link" href="/">
                   Home
