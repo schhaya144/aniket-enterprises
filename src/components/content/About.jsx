@@ -1,6 +1,6 @@
 import React from 'react'
 import whatDo from '../assets/what-we-do.png'
-// import './About.css'
+import '../../../src/About.css'
 
 
 function About() {
