@@ -13,6 +13,10 @@
     margin: 40px 17px;
 }
 .card-heading{
-    color: orangered;
+    color: rgb(146, 198, 253);
     font-weight: 700;
+}
+.about-text{
+    color:rgb(110, 150, 250) ;
+    text-shadow: 0px 0px 3px rgb(255, 255, 255);
 }
