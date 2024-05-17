@@ -1,6 +1,10 @@
 import React from "react";
 import style from "./Home.module.css";
 // import heroImg from "../assets/hero.png";
+import About from "./About";
+import Contact from "./Contact";
+import Team from "./Team";
+import Project from "./Project";
 function Home() {
   return (
     <>
@@ -32,15 +36,10 @@ function Home() {
           </div>
         </div>
       </section>
-      <section id="about">
-        <div className="container"></div>
-      </section>
-      <section id="services">
-
-      </section>
-      <section className="projects">
-
-      </section>
+      <About />
+        <Team />
+        <Contact />
+        <Project/>
     </>
   );
 }

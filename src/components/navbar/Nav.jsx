@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom"; // Import useLocation if you are using react-router
+import { useLocation } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-  const location = useLocation(); // Get the current location
+  const location = useLocation(); 
 
   const handleToggleNav = () => {
     setIsNavOpen(!isNavOpen);
@@ -19,6 +20,7 @@ function Nav() {
           <button
             className="navbar-toggler"
             type="button"
+            id="navbarToggler"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar"
@@ -42,25 +44,22 @@ function Nav() {
                 className="btn-close btn-close-white"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
+                id="togglerClosebtn"
               ></button>
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav offnav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a
-                    className={`nav-link ${
-                      location.pathname === "/" ? "active" : ""
-                    }`}
-                    href="/"
+                  <Link
+                    className="nav-link"
+                    to="/"
                   >
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a
-                    className={`nav-link ${
-                      location.pathname === "/about" ? "active" : ""
-                    }`}
+                    className="nav-link"
                     href="#about"
                   >
                     About Us
@@ -68,29 +67,23 @@ function Nav() {
                 </li>
                 <li className="nav-item">
                   <a
-                    className={`nav-link ${
-                      location.pathname === "/services" ? "active" : ""
-                    }`}
-                    href="/services"
+                    className="nav-link"
+                    href="#services"
                   >
                     Services
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a
-                    className={`nav-link ${
-                      location.pathname === "/projects" ? "active" : ""
-                    }`}
-                    href="/projects"
+                  <Link
+                    className="nav-link"
+                    to="/projects"
                   >
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a
-                    className={`nav-link ${
-                      location.pathname === "/team" ? "active" : ""
-                    }`}
+                    className="nav-link"
                     href="#team"
                   >
                     Team

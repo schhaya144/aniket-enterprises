@@ -11,6 +11,7 @@
 #navbarToggler {
   --bs-navbar-toggler-border-color: none;
   --bs-navbar-toggler-focus-width: none;
+ 
 }
 /* .navbar-nav .nav-item .nav-link.active {
   color: #ffcc00 !important; 
@@ -127,6 +128,9 @@ html, body {
 }
 .team-box:hover img {
   background-image: linear-gradient(60deg, #2AAA8A, #4169E1);
+}
+.service-box-main{
+  margin-bottom: 20px;
 }
 
 
