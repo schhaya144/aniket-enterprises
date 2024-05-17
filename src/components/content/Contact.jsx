@@ -10,10 +10,10 @@ import {
 function Contact() {
   return (
 
-    <div classNameName="container-fluid   contect-box "> 
+ <div className="container-fluid bg">
     {/* form container start*/}
      
- 
+ <div className="container">
     <div className="form-container">
         <h2 className="form-title text-center card-heading">
             <span className="about-text">Contact Us <SparklesIcon className="icon02" /></span>
@@ -47,7 +47,7 @@ function Contact() {
             <button type="submit" className="btn btn-custom w-100">Submit</button>
         </form>
     </div>
-
+</div>
 
     {/* form container end */}
     </div>
