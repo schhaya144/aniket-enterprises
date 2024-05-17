@@ -56,7 +56,9 @@ function About() {
 
       <div className="row text-center">
         <h3 className="card-heading text-center">
-        <span className="about-text">Our Services <SparklesIcon className="icon02" /> </span>
+          <span className="about-text">
+            Our Services <SparklesIcon className="icon02" />{" "}
+          </span>
         </h3>
       </div>
       <div className="row ">

@@ -64,3 +64,52 @@ html, body {
   color:#874747;
   margin-bottom:0;
 }
+/* team ------------------------------------------------- */
+.team-heading{
+  color: rgb(146, 198, 253);
+  font-weight: 700;
+  text-decoration: underline ;
+  margin-bottom: 33px;
+}
+.team-text{
+  color:rgb(110, 150, 250) ;
+  text-shadow: 0px 0px 3px rgb(255, 255, 255);
+
+}
+.team-bg{
+  background-color: rgb(249,246,246);
+}
+.team-box{
+  background-color:rgb(110, 150, 250) ;
+  /* margin: 11px 23px; */
+  /* width: 80%; */
+  color: white;
+  padding: 38px 15px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.9s ease-in-out;
+}
+.team-box:hover{
+  transform: translateY(-30px); 
+  border-radius: 6px;
+}
+
+.profile-team img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-image: linear-gradient(60deg, #cfd1d0, #646466); 
+  padding: 5px;
+  margin-top: -45px;
+}
+.team-box:hover img {
+  background-image: linear-gradient(60deg, #2AAA8A, #4169E1);
+}
+
+
+
+
+
+
+
+
