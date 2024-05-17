@@ -41,7 +41,7 @@ We are known for our quality work, integrity and time effectiveness. <br />
 
       <div className="row text-center">
         <h3 className="card-heading text-center">
-          Our Services <SparklesIcon className="icon02" />
+        <span className="about-text">Our Services <SparklesIcon className="icon02" /> </span>
         </h3>
       </div>
       <div className="row ">
