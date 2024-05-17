@@ -16,6 +16,11 @@
     background-color: #007bff;
     color: #ffffff;
     border: none;
+    --bs-input-btn-focus-color:none;
+}
+.input-custom{
+    
+    --bs-input-focus-border-color:none;
 }
 .btn-custom:hover {
     background-color: #0056b3;
