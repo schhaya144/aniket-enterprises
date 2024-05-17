@@ -4,7 +4,7 @@ import style from "./Home.module.css";
 import About from "./About";
 import Contact from "./Contact";
 import Team from "./Team";
-import Project from "./Project";
+import Services from "./Services";
 function Home() {
   return (
     <>
@@ -37,9 +37,10 @@ function Home() {
         </div>
       </section>
       <About />
+      <Services/>
         <Team />
         <Contact />
-        <Project/>
+        
     </>
   );
 }
