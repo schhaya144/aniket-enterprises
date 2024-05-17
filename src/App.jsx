@@ -16,12 +16,12 @@ function App() {
         <header>
           <Nav />
           <Routes>
-          <Route path="/" element={<Home />}></Route>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/#team" element={<Home />}></Route>
             <Route path="/projects" element={<Project />}></Route>
           </Routes>
         </header>
-        
-       
+
         <footer>
           <Footer />
         </footer>

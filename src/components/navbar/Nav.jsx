@@ -60,7 +60,7 @@ function Nav() {
                 <li className="nav-item">
                   <a
                     className="nav-link"
-                    href="#about"
+                    href="/#about"
                   >
                     About Us
                   </a>
@@ -68,7 +68,7 @@ function Nav() {
                 <li className="nav-item">
                   <a
                     className="nav-link"
-                    href="#services"
+                    href="/#services"
                   >
                     Services
                   </a>
@@ -84,7 +84,7 @@ function Nav() {
                 <li className="nav-item">
                   <a
                     className="nav-link"
-                    href="#team"
+                    href="/#team"
                   >
                     Team
                   </a>
