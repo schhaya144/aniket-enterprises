@@ -8,6 +8,7 @@ import Services from "./components/content/Services";
 import Project from "./components/content/Project";
 import Team from "./components/content/Team";
 import Footer from "./components/footer/Footer";
+import Contact from './components/content/Contact';
 function App() {
  
 
@@ -29,6 +30,7 @@ function App() {
       </main>
       <About />
       {/* <Team /> */}
+      <Contact />
      <footer>
       <Footer/>
      </footer>
