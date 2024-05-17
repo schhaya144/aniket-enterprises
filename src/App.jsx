@@ -28,6 +28,7 @@ function App() {
         <Home/>
       </main>
       <About />
+      {/* <Team /> */}
      <footer>
       <Footer/>
      </footer>
