@@ -1,6 +1,6 @@
 .containerBg{
     /* padding: 400px; */
-    height: 100vh;
+    height: 95vh;
     max-width: 100%;
     background-image: url('../assets/herobg.jpg');
     background-size: cover; 
@@ -9,5 +9,5 @@
 }
 .heroText{
     margin-bottom: 6rem;
-    padding: 18rem 0;
+    padding: 12rem 0;
 }
