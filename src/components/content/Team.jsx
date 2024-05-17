@@ -3,7 +3,7 @@ import "../../../src/team.css";
 import { SparklesIcon } from "@heroicons/react/24/outline";
 import avtarImg1 from "../assets/avtar1.webp";
 import avtarImg2 from "../assets/avtar2.png";
-import avtarImg3 from "../assets/avtar3.avif";
+import avtarImg3 from "../assets/avtar4.webp";
 function Team() {
   return (
     <>
@@ -19,7 +19,7 @@ function Team() {
           <div className="row pb-5">
             <div className="col-md-4 text-center service-box-main">
               <div className="team-box h-100">
-                <div class="card h-100">
+                <div className="card h-100">
                   <div class="card-body">
                     <div className="profile-team">
                       <img
@@ -27,8 +27,8 @@ function Team() {
                         alt=""
                       />
                     </div>
-                    <h5 class="card-title py-3">Mr. Sanjay Agrawal</h5>
-                    <p class="card-text">
+                    <h5 className="card-title py-3">Mr. Sanjay Agrawal dd</h5>
+                    <p className="card-text">
                     (Sr. Industrial Consultant)
                     </p>
                     
@@ -38,16 +38,16 @@ function Team() {
             </div>
             <div className="col-md-4 text-center service-box-main">
             <div className="team-box h-100">
-                <div class="card h-100">
-                  <div class="card-body">
+                <div className="card h-100">
+                  <div className="card-body">
                     <div className="profile-team">
                       <img
                         src={avtarImg2}
                         alt=""
                       />
                     </div>
-                    <h5 class="card-title py-3">Mr. Aniket Agrawal </h5>
-                    <p class="card-text">
+                    <h5 className="card-title py-3">Mr. Aniket Agrawal </h5>
+                    <p className="card-text">
                     (Consultant, Registered 
 Valuer IBBI & u/s 34AB of Wealth Tax Act)
                     </p>
@@ -58,16 +58,16 @@ Valuer IBBI & u/s 34AB of Wealth Tax Act)
             </div>
             <div className="col-md-4 text-center service-box-main">
             <div className="team-box h-100">
-                <div class="card h-100">
-                  <div class="card-body">
+                <div className="card h-100">
+                  <div className="card-body">
                     <div className="profile-team">
                       <img
                         src={avtarImg3}
                         alt=""
                       />
                     </div>
-                    <h5 class="card-title py-3">Mr. Gagan Ghrawal</h5>
-                    <p class="card-text">
+                    <h5 className="card-title py-3">Mr. Gagan Ghrawal</h5>
+                    <p className="card-text">
                      (Chartered Accountant)
                     </p>
                     

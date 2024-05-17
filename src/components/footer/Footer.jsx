@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <>
-      <div className="footer-basic bg-dark">
+      <div className="footer-basic bg-primary">
         <footer>
             <div className="social"><Link to="#"><i className="fa-brands fa-instagram"></i></Link><Link to="#"><i className="fa-brands fa-twitter"></i></Link><Link to="/"><i className="fa-brands fa-linkedin-in"></i></Link>
             <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link></div>

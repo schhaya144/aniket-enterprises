@@ -1,3 +1,25 @@
+/* nav ----------------- */
+/* Add this CSS to your stylesheet */
+.offnav .nav-item .nav-link {
+  color: white !important;
+  font-size: 18px;
+  transition: color 0.3s ease; 
+}
+#togglerClosebtn {
+  --bs-btn-close-focus-shadow: none;
+}
+#navbarToggler {
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-focus-width: none;
+}
+/* .navbar-nav .nav-item .nav-link.active {
+  color: #ffcc00 !important; 
+  font-weight: bold; 
+} */
+
+
+
+
 /* footer css  */
 html, body {
     scroll-behavior: smooth;
@@ -5,10 +27,11 @@ html, body {
 
 
 
+/* footer ---------------------------------------- */
 .footer-basic {
   padding:40px 0;
   background-color:#ffffff;
-  color:#dbdddf;
+  color:#ffffff;
 }
 
 .footer-basic ul {
@@ -31,7 +54,7 @@ html, body {
 }
 
 .footer-basic ul a:hover {
- color: #37cee1;
+ color: #874747;
 }
 
 .footer-basic .social {
@@ -47,14 +70,14 @@ html, body {
   display:inline-block;
   text-align:center;
   border-radius:50%;
-  border:1px solid #37cee1;
+  border:1px solid #874747;
   margin:0 8px;
   color:inherit;
   opacity:0.75;
 }
 
 .footer-basic .social > a:hover {
- color: #37cee1;
+ color: #874747;
 }
 
 .footer-basic .copyright {
