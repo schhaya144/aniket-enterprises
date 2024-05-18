@@ -141,6 +141,8 @@ html, body {
   text-decoration: none;
   color: white;
 }
-
+.project-table{
+  box-shadow: 0 0 10px #97c8fd;
+}
 
 
