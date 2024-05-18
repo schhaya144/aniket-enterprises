@@ -8,7 +8,7 @@ import Whatsapp from "../assets/Whatsapp.png";
 
 function Contact() {
   return (
-<div> <img src={Whatsapp} className='whatsapp-img' alt="" /> </div>
+<a target='_blank' href="https://wa.me/+919340926300"><div> <img src={Whatsapp} className='whatsapp-img' alt="" /> </div></a>
   )
 }
 
