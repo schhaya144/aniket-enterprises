@@ -8,6 +8,7 @@ import Services from "./components/content/Services";
 import Project from "./components/content/Project";
 
 import Footer from "./components/footer/Footer";
+import Whatsapp from "./components/content/Whatsapp";
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
             <Route path="/#team" element={<Home />}></Route>
             <Route path="/projects" element={<Project />}></Route>
           </Routes>
+       <Whatsapp />
         </header>
-
         <footer>
           <Footer />
         </footer>
