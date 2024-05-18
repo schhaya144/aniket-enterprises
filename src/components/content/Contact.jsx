@@ -32,19 +32,25 @@ function Contact() {
                 <input type="email" className="form-control " id="email input-custom" placeholder="Enter your email" />
             </div>
             <div className="mb-3">
-                <label for="dropdown" className="form-label input-headings">Select an Option</label>
+                <label for="dropdown" className="form-label input-headings">Service interested in</label>
                 <select className="form-select" id="dropdown">
-                    <option selected>Select an option</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
+                    <option selected>Project Identification</option>
+                    <option value="1">Pre Investment Feasibility Studies</option>
+                    <option value="2">Detailed Project Report</option>
+                    <option value="3">Technical & Financial Appraisal</option>
+                    <option value="3">Valuation Studies for Real Estate</option>
+                    <option value="3">Techno Economic Viability Reports</option>
+                    <option value="3">Land Allotment Documentation</option>
+                    <option value="3">Chartered Engineering Certificates</option>
+                    <option value="3">Chartered Accountant Certificates</option>
+                    <option value="3">Others</option>
                 </select>
             </div>
             <div className="mb-3">
                 <label for="message" className="form-label input-headings">Message</label>
                 <textarea className="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
             </div>
-            <button type="submit" className="btn btn-custom w-100">Submit</button>
+            <button type="submit" className="btn btn-custom btn-primary w-100">Submit</button>
         </form>
     </div>
 </div>
