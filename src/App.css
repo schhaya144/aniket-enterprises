@@ -115,6 +115,7 @@ html, body {
   transition: transform 0.9s ease-in-out;
 }
 .team-box:hover{
+  background-color: rgb(13,110,253);
   transform: translateY(-30px); 
   border-radius: 6px;
 }
