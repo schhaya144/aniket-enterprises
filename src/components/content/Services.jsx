@@ -19,7 +19,7 @@ function Services() {
       <div className="container">
       <div className="row text-center">
         <h3 className="card-heading text-center">
-          <span className="about-text">
+          <span className="about-text text-primary">
             Our Services <SparklesIcon className="icon02" />{" "}
           </span>
         </h3>

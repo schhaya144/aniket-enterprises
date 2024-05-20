@@ -25,7 +25,7 @@ function About() {
         <div className="col-md-6" id="aboutUs">
           <p className="about-para text-center fw-bolder">
             <h3 className="card-heading">
-              <span className="about-text">
+              <span className="about-text text-primary">
                 {" "}
                 About <SparklesIcon className="icon02" /> Aniket Enterprises
               </span>

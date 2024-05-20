@@ -16,7 +16,7 @@ function Contact() {
  <div className="container">
     <div className="form-container">
         <h2 className="form-title text-center card-heading">
-            <span className="about-text">Contact Us <SparklesIcon className="icon02" /></span>
+            <span className="about-text text-primary">Contact Us <SparklesIcon className="icon02" /></span>
         </h2>
         <form>
             <div className="mb-3">
