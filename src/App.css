@@ -144,5 +144,7 @@ html, body {
 .project-table{
   box-shadow: 0 0 10px #97c8fd;
 }
-
+.table-flow{
+  overflow-x: auto;
+}
 

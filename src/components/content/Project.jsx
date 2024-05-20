@@ -3,7 +3,7 @@ import React from "react";
 function Project() {
   return (
     <div>
-    <div className="container mt-5">
+    <div className="container mt-5 table-flow">
     
         <div className="row pt-5">
           <table class="table  project-table">
