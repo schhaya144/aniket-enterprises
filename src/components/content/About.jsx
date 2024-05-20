@@ -22,7 +22,7 @@ function About() {
         <div className="col-md-6">
           <img className="about-img img-fluid" src={whatDo} alt="" />
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6" id="aboutUs">
           <p className="about-para text-center fw-bolder">
             <h3 className="card-heading">
               <span className="about-text">
