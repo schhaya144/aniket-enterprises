@@ -2,51 +2,6 @@
     position: fixed;
     height: 72px;
     width: 72px;
-<<<<<<< HEAD
-}
-@media (max-width:1470px) {
-   .whatsapp-img{
-  
-    left: 1270px;
-   }
-}
-@media (max-width:1450px) {
-   .whatsapp-img{
-
-    left: 1210px;
-   }
-}
-@media (max-width:1300px) {
-   .whatsapp-img{
-
-    left: 1px;
-   }
-}
-@media (max-width:1450px) {
-   .whatsapp-img{
-
-    left: 1230px;
-   }
-}
-@media (max-width:1450px) {
-   .whatsapp-img{
-
-    left: 1230px;
-   }
-}
-@media (max-width:1450px) {
-   .whatsapp-img{
-
-    left: 1230px;
-   }
-}
-@media (max-width:1450px) {
-   .whatsapp-img{
-
-    left: 1230px;
-   }
-}
-=======
     z-index: 99999; /* Ensure it's on top */
   }
   
@@ -76,4 +31,3 @@
     }
   }
   
->>>>>>> 8525162852831e50dd8a811f16e12dfaebfc8c24
