@@ -6,3 +6,45 @@
     height: 72px;
     width: 72px;
 }
+@media (max-width:1470px) {
+   .whatsapp-img{
+  
+    left: 1270px;
+   }
+}
+@media (max-width:1450px) {
+   .whatsapp-img{
+
+    left: 1210px;
+   }
+}
+@media (max-width:1300px) {
+   .whatsapp-img{
+
+    left: 1px;
+   }
+}
+@media (max-width:1450px) {
+   .whatsapp-img{
+
+    left: 1230px;
+   }
+}
+@media (max-width:1450px) {
+   .whatsapp-img{
+
+    left: 1230px;
+   }
+}
+@media (max-width:1450px) {
+   .whatsapp-img{
+
+    left: 1230px;
+   }
+}
+@media (max-width:1450px) {
+   .whatsapp-img{
+
+    left: 1230px;
+   }
+}
